@@ -58,13 +58,13 @@ The script will classify the news article into one of the following categories: 
 ## Model Fine-Tuning
 If you want to fine-tune the DistilBERT model on your own dataset, follow these steps:
 
-Prepare your dataset in a format similar to the example dataset (BBC Text Classification).
+1. Prepare your dataset in a format similar to the example dataset (BBC Text Classification).
 
-Modify the code to load and preprocess your dataset.
+2. Modify the code to load and preprocess your dataset.
 
-Fine-tune the model using the TFTrainer.
+3. Fine-tune the model using the TFTrainer.
 
-Save the fine-tuned model in the saved_models directory.
+4. Save the fine-tuned model in the saved_models directory.
 
 ## Contributing
 Contributions to this project are welcome! If you encounter issues or have suggestions for improvements, please open an issue or create a pull request.
