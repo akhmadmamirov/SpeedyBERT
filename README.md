@@ -17,7 +17,10 @@ News Classification with DistilBERT is a project that harnesses cutting-edge nat
 
 ## Achieved Results
 
-(Include any results, accuracy metrics, or performance details achieved with your model here, if applicable.)
+1. Built a NLP Pipeline to train Google’s DistilBert Large Language Model with TensorFlow for multi class text classification.
+2. Fine-Tuned the model using a custom BBC text classification dataset.
+3. Used DistilBert to pertain 97% of language understanding of Bert Model while reducing the size by 40% and speeding up the training by process by 60%.
+
 
 ## Getting Started
 
