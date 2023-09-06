@@ -71,8 +71,9 @@ If you want to fine-tune the DistilBERT model on your own dataset, follow these 
 Contributions to this project are welcome! If you encounter issues or have suggestions for improvements, please open an issue or create a pull request.
 
 ## Additional Notes
-Please be aware that training time may vary depending on the dataset size and the number of epochs used for training.
-Currently working on train.py file
+1. Please be aware that training time may vary depending on the dataset size and the number of epochs used for training.
+2. The average training time in my case was <7 hours
+3. Currently working on train.py file
 
 ## Credits
 @ github.com/rohan-paul
