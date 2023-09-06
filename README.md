@@ -30,7 +30,7 @@ To begin using this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/news-classification.git
+   git clone https://github.com/akhmadmamirov/news-classification.git
 Install the required dependencies:
 
 pip install transformers tensorflow pandas scikit-learn
