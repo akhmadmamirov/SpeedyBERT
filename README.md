@@ -17,9 +17,10 @@ News Classification with DistilBERT is a project that harnesses cutting-edge nat
 
 ## Achieved Results
 
-1. Built a NLP Pipeline to train Google’s DistilBert Large Language Model with TensorFlow for multi class text classification.
-2. Fine-Tuned the model using a custom BBC text classification dataset.
+1. Built a NLP Pipeline to train Google’s DistilBert Large Language Model using TensorFlow and Hugging Face transformers for multi class text classification.
+2. Fine-Tuned the model with a custom BBC text classification dataset.
 3. Used DistilBert to pertain 97% of language understanding of Bert Model while reducing the size by 40% and speeding up the training by process by 60%.
+
 
 
 ## Getting Started
@@ -45,7 +46,7 @@ Before using the model, you should preprocess your dataset. If you choose to use
 
 4. Fine-tune the DistilBERT model on your preprocessed dataset.
 
-5. Save the fine-tuned model in the saved_models directory. (Make sure you have permissions to write in the current pat of your OS)
+5. Save the fine-tuned model in the saved_models directory. (Make sure you have permissions to write in the current path of your OS)
 
 ## Usage
 You can use the fine-tuned DistilBERT model to classify news articles. Run the following script and enter the news article text when prompted:
