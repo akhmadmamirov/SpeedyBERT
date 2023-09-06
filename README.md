@@ -38,8 +38,8 @@ You can use the fine-tuned DistilBERT model to classify news articles. Run the f
 
 bash
 Copy code
-python classify_news.py
-The script will classify the news article into one of the following categories: Business, Entertainment, Politics, Sport, Tech.
+python predict.py
+The script will classify the news article into one of the following categories: Business, Entertainment, Politics, Sport, Tech based on the give input
 
 Model Fine-Tuning
 If you want to fine-tune the DistilBERT model on your own dataset, follow these steps:
