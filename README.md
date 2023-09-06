@@ -76,5 +76,5 @@ Contributions to this project are welcome! If you encounter issues or have sugge
 3. Currently working on train.py file
 
 ## Credits
-@ github.com/rohan-paul
-ChatGPT 
+1. @ github.com/rohan-paul
+2. ChatGPT 
