@@ -2,6 +2,9 @@
 
 This repository showcases the fine-tuning of Google's DistilBERT model for classifying news articles into one of the following categories such as tech, business, politics, entertainment and sports. Included are the preprocessing data(learning.py) to train the model, and prediction scripts(predict.py) for the fine-tuned model. Please note that due to size limitations, the fine-tuned model itself is not included.
 
+<img width="581" alt="image" src="https://github.com/akhmadmamirov/fineTuningBert/assets/105142060/e6357cd2-3d88-465c-a0cd-a2117765fe3f">
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
