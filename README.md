@@ -1,4 +1,4 @@
-# BBClyDistilBERT | News Classification with DistilBERT
+# SpeedyBERT | News Classification with DistilBERT
 
 This repository showcases the fine-tuning of Google's DistilBERT model for classifying news articles into one of the following categories such as tech, business, politics, entertainment and sports. Included are the preprocessing data(learning.py) to train the model, and prediction scripts(predict.py) for the fine-tuned model. Please note that due to size limitations, the fine-tuned model itself is not included.
 
