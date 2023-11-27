@@ -8,15 +8,6 @@ import os
 
 from sklearn.model_selection import train_test_split
 
-import re
-import nltk
-from nltk.corpus import stopwords
-nltk.download('stopwords')
-stopw = stopwords.words('english')
-
-
-from tqdm import tqdm
-
 root_path = './data2/bbc-text.csv'
 df = pd.read_csv(root_path)
 
@@ -26,9 +17,11 @@ df['encoded_text'] = df['category'].astype('category').cat.codes
 
 data_texts = df['text'].to_list()
 data_labels = df['encoded_text'].to_list()
+
 #Train Test SPlit
 train_texts, val_texts, train_labels, val_labels = train_test_split(data_texts, data_labels, test_size = 0.2, random_state = 0 )
 train_texts, test_texts, train_labels, test_labels = train_test_split(train_texts, train_labels, test_size = 0.01, random_state = 0 )
+
 #Model Definition
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 train_encodings = tokenizer(train_texts, truncation = True, padding = True  )
@@ -43,6 +36,7 @@ val_dataset = tf.data.Dataset.from_tensor_slices((
     dict(val_encodings),
     val_labels
 ))
+
 #Fine-tuning with the TFTrainer class
 model = TFDistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=5)
 
