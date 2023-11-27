@@ -5,8 +5,6 @@ from transformers import TFDistilBertForSequenceClassification, TFTrainer, TFTra
 import tensorflow as tf
 import pandas as pd
 import os
-import json
-import gc
 
 from sklearn.model_selection import train_test_split
 
