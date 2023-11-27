@@ -14,9 +14,6 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 stopw = stopwords.words('english')
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-from plotly.offline import iplot
 
 from tqdm import tqdm
 
